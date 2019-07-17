@@ -21,7 +21,7 @@ public class UserServlet extends HttpServlet {
 		System.out.println("接收到请求");
 		PrintWriter writer = response.getWriter();
 		writer.print("scuccess");
-		System.out.println("aaa");
+		System.out.println("a2");
 		writer.close();
 	}
 
